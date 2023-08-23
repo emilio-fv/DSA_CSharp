@@ -1,4 +1,27 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{F8EA47E7-A255-4F46-B35F-839DD3EF44B5}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgoRunner/Program.cs">
+    <Files>
+      <File FileName="DSA_Library/Class1.cs" Line="5" Column="12" />
+      <File FileName="AlgoRunner/Program.cs" Line="7" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DSA_Library" expanded="True">
+            <Node name="AlgoRunner">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DSA__Library FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.AlgoRunner FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
