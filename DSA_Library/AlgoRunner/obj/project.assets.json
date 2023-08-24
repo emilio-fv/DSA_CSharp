@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "DSA_Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DSA_Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DSA_Library.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DSA_Library/1.0.0": {
+      "type": "project",
+      "path": "../DSA_Library/DSA_Library.csproj",
+      "msbuildProject": "../DSA_Library/DSA_Library.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "DSA_Library >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/emiliovazquez/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/DSA_Library.csproj": {
+              "projectPath": "/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/DSA_Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

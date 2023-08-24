@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CTCI\" />
+    <None Remove="CTCI\ArraysAndStrings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CTCI\" />
+    <Folder Include="CTCI\ArraysAndStrings\" />
+  </ItemGroup>
 </Project>

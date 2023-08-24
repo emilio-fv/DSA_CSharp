@@ -7,4 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DSA_Library\DSA_Library.csproj" />
+  </ItemGroup>
 </Project>
