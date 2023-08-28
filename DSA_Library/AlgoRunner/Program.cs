@@ -6,16 +6,13 @@ internal class Program
     {
         Console.WriteLine("Welcome to the C# Algo Tester");
 
-        // Define problem an I/O
-        string name = IsUnique.name;
-        string description = IsUnique.description;
-        var input = IsUnique.input1;
-        bool output = IsUnique.Solution1(IsUnique.input2);
-
-        // Print problem details and I/O
+        string name = CheckPermutation.name;
         Console.WriteLine("Problem: " + name);
+
+        string description = CheckPermutation.description;
         Console.WriteLine("Description: " + description);
-        Console.WriteLine("Input: " + input);
+
+        bool output = CheckPermutation.Solution1(CheckPermutation.input1, CheckPermutation.input3);
         Console.WriteLine("Output: " + output);
     }
 }

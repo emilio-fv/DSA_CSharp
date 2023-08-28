@@ -1,0 +1,11 @@
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/bin/Debug/net7.0/DSA_Library.deps.json
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/bin/Debug/net7.0/DSA_Library.dll
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/bin/Debug/net7.0/DSA_Library.pdb
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/DSA_Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/DSA_Library.AssemblyInfoInputs.cache
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/DSA_Library.AssemblyInfo.cs
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/DSA_Library.csproj.CoreCompileInputs.cache
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/DSA_Library.dll
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/refint/DSA_Library.dll
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/DSA_Library.pdb
+/Users/emiliovazquez/Desktop/DSA_CSharp/DSA_Library/DSA_Library/obj/Debug/net7.0/ref/DSA_Library.dll
