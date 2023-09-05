@@ -5,15 +5,23 @@ namespace DSA_Library
 	{
         public static readonly string name = "1.1 Is Unique";
         public static readonly string description = "Implement an algorithm to determine if a string has all unique characters. What if you cannot user additional data structures?";
-        public static readonly string input1 = "abcd"; // returns true
-        public static readonly string input2 = "abcda"; // returns false
 
-        public static bool Solution1(string str)
+        public static bool Solution1(string? str)
         {
-            // Edge cases: empty string, one character string, longer than 256 chrs
-            if (str.Length <= 1 | str.Length > 256)
+            Console.WriteLine(name);
+            Console.WriteLine(description);
+            Console.WriteLine("Input: " + str);
+
+            // Edge cases: null value
+            if (str is null)
             {
-                return true;
+                return false;
+            }
+
+            // Edge cases: empty string
+            if (str.Length == 0)
+            {
+                return false;
             }
 
             // Use array of booleans to track each ASCII value
@@ -41,6 +49,10 @@ namespace DSA_Library
 
         public static bool Solution2(string str)
         {
+            Console.WriteLine(name);
+            Console.WriteLine(description);
+            Console.Write(str);
+
             // Edge cases: empty string, one character string, longer than 256 chrs
             if (str.Length <= 1 | str.Length > 256)
             {

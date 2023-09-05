@@ -5,13 +5,13 @@ namespace DSA_Library
 	{
         public static readonly string name = "1.2 Check Permutation";
         public static readonly string description = "Given two strings, write a method to decide if one is a permutation of the other";
-        public static readonly string input1 = "abcdefg"; 
-        public static readonly string input2 = "defgabc"; // Returns true
-        public static readonly string input3 = "dxefgabc"; // Returns falase
 
         public static bool Solution1(string str1, string str2)
         {
-            Console.WriteLine("Input: " + str1 + ", " + str2);
+            Console.WriteLine(name);
+            Console.WriteLine(description);
+            Console.WriteLine("Input1: " + str1);
+            Console.WriteLine("Input2: " + str2);
 
             // Edge cases: different lengths, null values, empty string
             if (string.IsNullOrEmpty(str1) | string.IsNullOrEmpty(str2))
