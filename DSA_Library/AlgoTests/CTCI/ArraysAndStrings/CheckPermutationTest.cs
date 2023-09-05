@@ -5,40 +5,45 @@ namespace AlgoTests.CTCI.ArraysAndStrings
 	[TestClass]
 	public class CheckPermutationTest
 	{
+		public static readonly string input1 = "abcdefg";
+		public static readonly string input2 = "defgabc";
+		public static readonly string input3 = "defgabd";
+		public static readonly string input4 = "defgabcx";
+		public static readonly string input5 = "";
+		
 		[TestMethod]
 		public void TestTrue()
 		{
-			string str1 = "abcdefg";
-			string str2 = "defgabc";
-			bool result = CheckPermutation.Solution1(str1, str2);
-			Assert.IsTrue(result, string.Format("Expected for {0} and {1}: true; Actual: {2}", str1, str2, result));
+			bool result = CheckPermutation.Solution1(input1, input2);
+			Assert.IsTrue(result, string.Format("Expected for {0} and {1}: true; Actual: {2}", input1, input2, result));
 		}
 
 		[TestMethod]
 		public void TestFalse()
 		{
-            string str1 = "abcdefg";
-			string str2 = "defgabd";
-			bool result = CheckPermutation.Solution1(str1, str2);
-			Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", str1, str2, result));
+			bool result = CheckPermutation.Solution1(input1, input3);
+			Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", input1, input3, result));
         }
 
 		[TestMethod]
 		public void TestDifferentLengths()
 		{
-            string str1 = "abcdefg";
-            string str2 = "defgabcx";
-			bool result = CheckPermutation.Solution1(str1, str2);
-			Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", str1, str2, result));
+			bool result = CheckPermutation.Solution1(input1, input4);
+			Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", input1, input4, result));
         }
 
-		[TestMethod]
+        [TestMethod]
+        public void TestEmptyString()
+        {
+            bool result = CheckPermutation.Solution1(input1, input5);
+            Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", input1, input5, result));
+        }
+
+        [TestMethod]
 		public void TestNullValues()
 		{
-			string str1 = "";
-			string? str2 = null;
-			bool result = CheckPermutation.Solution1(str1, str2);
-			Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", str1, str2, result));
+			bool result = CheckPermutation.Solution1(input1, null);
+			Assert.IsFalse(result, string.Format("Expected for {0} and {1}: false; Actual: {2}", input1, null, result));
 		}
 	}
 }
