@@ -54,7 +54,7 @@ namespace DSA_Library
             Console.WriteLine("Input: " + str);
 
             // Edge cases: empty string, one character string, longer than 256 chrs
-            if (str.Length <= 1 | str.Length > 256)
+            if (str.Length <= 1 || str.Length > 256)
             {
                 return true;
             }

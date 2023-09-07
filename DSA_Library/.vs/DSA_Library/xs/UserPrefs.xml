@@ -1,35 +1,17 @@
 ﻿<Properties StartupConfiguration="{44A603E8-615F-46AD-9A1E-40D23C02D673}|Default">
-  <MonoDevelop.Ide.ItemProperties.AlgoTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.AlgoRunner PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DSA_Library">
-            <Node name="AlgoTests" selected="True" />
-            <Node name="DSA_Library">
-              <Node name="CTCI" expanded="True">
-                <Node name="ArraysAndStrings" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="DSA_Library" expanded="True">
-            <Node name="AlgoTests" expanded="True">
-              <Node name="AlgoTests.CTCI.ArraysAndStrings" expanded="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AlgoTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
