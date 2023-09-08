@@ -28,8 +28,7 @@ namespace DSA_Library
 				if (str[i] != ' ')
 				{
 					count++;
-					string chr = str[i].ToString().ToLower();
-					Console.WriteLine(chr);
+					string chr = str[i].ToString().ToLower();;
 					if (chrs.ContainsKey(chr))
 					{
 						chrs.Remove(chr);

@@ -1,17 +1,32 @@
-﻿<Properties StartupConfiguration="{44A603E8-615F-46AD-9A1E-40D23C02D673}|Default">
+﻿<Properties StartupConfiguration="{F8EA47E7-A255-4F46-B35F-839DD3EF44B5}|Default">
   <MonoDevelop.Ide.ItemProperties.AlgoRunner PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="DSA_Library">
+            <Node name="AlgoTests">
+              <Node name="CTCI" expanded="True">
+                <Node name="ArraysAndStrings" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DSA_Library">
+              <Node name="CTCI">
+                <Node name="ArraysAndStrings">
+                  <Node name="PalindromePermutation.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.AlgoTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AlgoTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>

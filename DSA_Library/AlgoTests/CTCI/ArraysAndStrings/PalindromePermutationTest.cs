@@ -14,7 +14,6 @@ namespace AlgoTests.CTCI.ArraysAndStrings
 			// Act
 			var response = PalindromePermutation.Solution1(input);
 
-			Console.WriteLine(response);
 			// Assert
 			Assert.IsTrue(response);
         }
